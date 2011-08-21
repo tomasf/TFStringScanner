@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E20D5790140192860072BD6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20D578F140192860072BD6E /* Foundation.framework */; };
+		E20D5793140192860072BD6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D5792140192860072BD6E /* main.m */; };
+		E20D57A0140192B60072BD6E /* TFStringScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = E20D579F140192B60072BD6E /* TFStringScanner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E20D5789140192860072BD6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E20D578B140192860072BD6E /* TFStringScannerTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TFStringScannerTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E20D578F140192860072BD6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E20D5792140192860072BD6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E20D5795140192860072BD6E /* TFStringScannerTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TFStringScannerTest-Prefix.pch"; sourceTree = "<group>"; };
+		E20D579E140192B60072BD6E /* TFStringScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFStringScanner.h; sourceTree = "<group>"; };
+		E20D579F140192B60072BD6E /* TFStringScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFStringScanner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E20D5788140192860072BD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D5790140192860072BD6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E20D5780140192860072BD6E = {
+			isa = PBXGroup;
+			children = (
+				E20D5791140192860072BD6E /* TFStringScannerTest */,
+				E20D578E140192860072BD6E /* Frameworks */,
+				E20D578C140192860072BD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E20D578C140192860072BD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E20D578B140192860072BD6E /* TFStringScannerTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E20D578E140192860072BD6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E20D578F140192860072BD6E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20D5791140192860072BD6E /* TFStringScannerTest */ = {
+			isa = PBXGroup;
+			children = (
+				E20D5792140192860072BD6E /* main.m */,
+				E20D579D140192B60072BD6E /* TFStringScanner */,
+				E20D5794140192860072BD6E /* Supporting Files */,
+			);
+			path = TFStringScannerTest;
+			sourceTree = "<group>";
+		};
+		E20D5794140192860072BD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20D5795140192860072BD6E /* TFStringScannerTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E20D579D140192B60072BD6E /* TFStringScanner */ = {
+			isa = PBXGroup;
+			children = (
+				E20D579E140192B60072BD6E /* TFStringScanner.h */,
+				E20D579F140192B60072BD6E /* TFStringScanner.m */,
+			);
+			path = TFStringScanner;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E20D578A140192860072BD6E /* TFStringScannerTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E20D579A140192860072BD6E /* Build configuration list for PBXNativeTarget "TFStringScannerTest" */;
+			buildPhases = (
+				E20D5787140192860072BD6E /* Sources */,
+				E20D5788140192860072BD6E /* Frameworks */,
+				E20D5789140192860072BD6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFStringScannerTest;
+			productName = TFStringScannerTest;
+			productReference = E20D578B140192860072BD6E /* TFStringScannerTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E20D5782140192860072BD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Lighthead Software";
+			};
+			buildConfigurationList = E20D5785140192860072BD6E /* Build configuration list for PBXProject "TFStringScannerTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E20D5780140192860072BD6E;
+			productRefGroup = E20D578C140192860072BD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E20D578A140192860072BD6E /* TFStringScannerTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E20D5787140192860072BD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E20D5793140192860072BD6E /* main.m in Sources */,
+				E20D57A0140192B60072BD6E /* TFStringScanner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E20D5798140192860072BD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E20D5799140192860072BD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E20D579B140192860072BD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFStringScannerTest/TFStringScannerTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E20D579C140192860072BD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TFStringScannerTest/TFStringScannerTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E20D5785140192860072BD6E /* Build configuration list for PBXProject "TFStringScannerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D5798140192860072BD6E /* Debug */,
+				E20D5799140192860072BD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E20D579A140192860072BD6E /* Build configuration list for PBXNativeTarget "TFStringScannerTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E20D579B140192860072BD6E /* Debug */,
+				E20D579C140192860072BD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E20D5782140192860072BD6E /* Project object */;
+}
