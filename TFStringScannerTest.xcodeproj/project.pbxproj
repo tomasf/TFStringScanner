@@ -203,6 +203,7 @@
 		E20D579B140192860072BD6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFStringScannerTest/TFStringScannerTest-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -212,6 +213,7 @@
 		E20D579C140192860072BD6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TFStringScannerTest/TFStringScannerTest-Prefix.pch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -237,6 +239,7 @@
 				E20D579C140192860072BD6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

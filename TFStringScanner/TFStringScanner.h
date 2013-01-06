@@ -7,18 +7,12 @@ typedef enum {
 } TFTokenType;
 
 
-@interface TFStringScanner : NSObject {
-	NSString *content;
-	NSUInteger location;
-	NSMutableArray *multicharSymbols;
-	TFTokenType lastTokenType;
-}
+@interface TFStringScanner : NSObject
 
-@property(readonly) NSString *string;
+@property(readonly, copy) NSString *string;
 @property NSUInteger location;
 @property(readonly, getter=isAtEnd) BOOL atEnd;
 @property(readonly) TFTokenType lastTokenType;
-
 
 + (id)scannerWithString:(NSString*)string;
 - (id)initWithString:(NSString*)string;
